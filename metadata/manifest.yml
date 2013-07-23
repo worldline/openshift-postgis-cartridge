@@ -1,0 +1,22 @@
+Name: geoserver
+Cartridge-Short-Name: POSTGIS
+Architecture: noarch
+Display-Name: POSTGIS 
+Description: "Enable PostGis for postgreSQL 8"
+Version: '0.1.0'
+Versions: [0.1.0]
+Cartridge-Version: 0.1.0
+Cartridge-Vendor: worldline
+License: MIT License
+Vendor: Mit
+Categories:
+  - embedded
+Website: http://postgis.net/
+Provides:
+  - postgis
+Scaling:
+  Min: 1
+  Max: -1
+Configure-Order:
+  - postgreSQL
+  - postgis
