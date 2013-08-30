@@ -1,3 +1,1 @@
-psql $OPENSHIFT_GEAR_NAME -c "create language plpgsql;"
-psql -d $OPENSHIFT_GEAR_NAME -f /usr/share/pgsql/contrib/postgis-64.sql
-psql -d $OPENSHIFT_GEAR_NAME -f /usr/share/pgsql/contrib/spatial_ref_sys.sql
+echo "Rien"
