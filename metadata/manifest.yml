@@ -1,4 +1,4 @@
-Name: geoserver
+Name: postgis
 Cartridge-Short-Name: POSTGIS
 Architecture: noarch
 Display-Name: POSTGIS 
