@@ -17,3 +17,6 @@ Provides:
 Scaling:
   Min: 1
   Max: -1
+-Configure-Order:
+-  - postresql 
+-  - postgis
