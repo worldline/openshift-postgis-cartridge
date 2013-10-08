@@ -10,3 +10,7 @@ This cartridge do the folowing commands at install:
     psql -d $OPENSHIFT_GEAR_NAME -f /usr/share/pgsql/contrib/spatial_ref_sys.sql
 
 You also can connect to your app and execute this lines.
+
+## Use it
+
+In OpenShift, choose a downloaded cartridge, with the following URL : http://cartreflect-claytondev.rhcloud.com/reflect?github=worldline/openshift-postgis-cartridge
